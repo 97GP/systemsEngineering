@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Energieversorgung" version="4">
+  <OBJECT>
+    <ID name="Energieversorgung" mc="Standard.Class" uid="66e538fc-e398-43f5-bb3e-ae19919bea35"/>
+    <PID name="Paketroboter" mc="Standard.Class" uid="94f63a0a-3238-4273-aa0e-486c08180839"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Energieversorgung]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Batterie" mc="Standard.Class" uid="ca1fcee2-0b49-41ef-9519-5354ac9e25c7"/>
+        <COMPID name="Ladeinfastruktur" mc="Standard.Class" uid="76dbae94-d8b8-4b9b-85b7-4abdedcb731f"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="autonomer robter" version="4">
+  <OBJECT>
+    <ID name="autonomer robter" mc="Standard.Package" uid="717c0cfb-f84b-4ce1-9fca-f27c901e836b"/>
+    <PID name="Autonomer Robter" mc="Standard.Project" uid="50d32483-553c-404a-a558-85648d84d6a4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[autonomer robter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Paketroboter" mc="Standard.Class" uid="94f63a0a-3238-4273-aa0e-486c08180839"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="autonomer robter Block diagram" mc="Standard.StaticDiagram" uid="2e221ea9-08a5-4d3e-b025-c1a3115092bf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

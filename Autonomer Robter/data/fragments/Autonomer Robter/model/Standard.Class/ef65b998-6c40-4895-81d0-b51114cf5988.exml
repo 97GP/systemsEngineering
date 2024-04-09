@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sensoren" version="4">
+  <OBJECT>
+    <ID name="Sensoren" mc="Standard.Class" uid="ef65b998-6c40-4895-81d0-b51114cf5988"/>
+    <PID name="Navigation" mc="Standard.Class" uid="c5b8c398-70a4-43e2-9263-4f9c1f7065a7"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Sensoren]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ultraschallsensor" mc="Standard.Class" uid="8e454906-ba82-42c1-ac3f-a0213946e870"/>
+        <COMPID name="Lidar-Sensor" mc="Standard.Class" uid="8cde445a-ce65-424e-a937-d77b1c0ff0fa"/>
+        <COMPID name="Radar-Sensor" mc="Standard.Class" uid="3e02b7c3-c514-401d-bb46-46ff48e3204e"/>
+        <COMPID name="Elektronik" mc="Standard.Class" uid="6af59c86-75a1-4027-b9b7-73decf9a34bf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

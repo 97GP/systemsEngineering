@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Autonomer Robter" version="4">
+  <OBJECT>
+    <ID name="Autonomer Robter" mc="Infrastructure.DiagramSet" uid="e22376ef-a8ef-4aeb-a6cc-92751fe3f792"/>
+    <PID name="Autonomer Robter" mc="Standard.Project" uid="50d32483-553c-404a-a558-85648d84d6a4"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Autonomer Robter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

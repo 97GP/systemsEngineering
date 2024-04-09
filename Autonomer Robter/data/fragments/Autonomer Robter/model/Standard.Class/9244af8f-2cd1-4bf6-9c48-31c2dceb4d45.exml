@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sicherheitssysteme" version="4">
+  <OBJECT>
+    <ID name="Sicherheitssysteme" mc="Standard.Class" uid="9244af8f-2cd1-4bf6-9c48-31c2dceb4d45"/>
+    <PID name="Paketroboter" mc="Standard.Class" uid="94f63a0a-3238-4273-aa0e-486c08180839"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Sicherheitssysteme]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Sensoren" mc="Standard.Class" uid="269220e9-f0ad-480c-acb1-a56f4427a326"/>
+        <COMPID name="Steuerung" mc="Standard.Class" uid="98569be2-65f7-4ab9-878a-00b475dd3fe3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

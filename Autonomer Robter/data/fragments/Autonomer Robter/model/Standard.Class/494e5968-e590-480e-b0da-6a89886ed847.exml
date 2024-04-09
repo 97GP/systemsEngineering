@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GPS-Modul" version="4">
+  <OBJECT>
+    <ID name="GPS-Modul" mc="Standard.Class" uid="494e5968-e590-480e-b0da-6a89886ed847"/>
+    <PID name="Navigation" mc="Standard.Class" uid="c5b8c398-70a4-43e2-9263-4f9c1f7065a7"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[GPS-Modul]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Sender" mc="Standard.Class" uid="4731d31e-30b5-4194-8954-2e1e18772aa8"/>
+        <COMPID name="Empfänger" mc="Standard.Class" uid="9c6aa7fe-c983-4dfb-90a3-584910404d69"/>
+        <COMPID name="Steuerung" mc="Standard.Class" uid="fd3c4bf1-8e13-4f74-97e8-1021f8c54703"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

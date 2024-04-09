@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Autonomer Robter" version="4">
+  <OBJECT>
+    <ID name="Autonomer Robter" mc="Standard.Project" uid="50d32483-553c-404a-a558-85648d84d6a4"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Autonomer Robter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="autonomer robter" mc="Standard.Package" uid="717c0cfb-f84b-4ce1-9fca-f27c901e836b"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Autonomer Robter" mc="Infrastructure.DiagramSet" uid="e22376ef-a8ef-4aeb-a6cc-92751fe3f792"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

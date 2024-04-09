@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Chassis" version="4">
+  <OBJECT>
+    <ID name="Chassis" mc="Standard.Class" uid="6ee76c05-9cd6-4935-ac44-9b7db03b59e3"/>
+    <PID name="Paketroboter" mc="Standard.Class" uid="94f63a0a-3238-4273-aa0e-486c08180839"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Chassis]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Rahmen" mc="Standard.Class" uid="c37dd9e0-6c46-4261-9546-b7733981080b"/>
+        <COMPID name="Verkleidung" mc="Standard.Class" uid="30270bea-a9e3-4125-b4db-6224dd8878a4"/>
+        <COMPID name="Federung" mc="Standard.Class" uid="93bed587-9d8f-4c13-80cb-e4dc740b30a0"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="Block" mc="Infrastructure.Stereotype" uid="00bc42a4-0000-19c9-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
